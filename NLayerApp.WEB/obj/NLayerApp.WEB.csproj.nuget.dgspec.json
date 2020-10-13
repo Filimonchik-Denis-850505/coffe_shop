@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.WEB\\NLayerApp.WEB.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.BLL\\NLayerApp.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.BLL\\NLayerApp.BLL.csproj",
+        "projectName": "NLayerApp.BLL",
+        "projectPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.BLL\\NLayerApp.BLL.csproj",
+        "packagesPath": "C:\\Users\\abutg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abutg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\NLayerApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\NLayerApp.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\NLayerApp.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\NLayerApp.DAL.csproj",
+        "projectName": "NLayerApp.DAL",
+        "projectPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\NLayerApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\abutg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abutg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.WEB\\NLayerApp.WEB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.WEB\\NLayerApp.WEB.csproj",
+        "projectName": "NLayerApp.WEB",
+        "projectPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.WEB\\NLayerApp.WEB.csproj",
+        "packagesPath": "C:\\Users\\abutg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.WEB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abutg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.BLL\\NLayerApp.BLL.csproj": {
+                "projectPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.BLL\\NLayerApp.BLL.csproj"
+              },
+              "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\NLayerApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\abutg\\RiderProjects\\coffe_shop\\NLayerApp.DAL\\NLayerApp.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
