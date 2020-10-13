@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\abutg\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\abutg\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_CoffeShop.-830353095.00" t="ExcludeRecursive" />
+    <e p="C:\Users\abutg\RiderProjects\coffe_shop" t="IncludeFlat">
+      <e p="CoffeShop.sln" t="IncludeFlat" />
+      <e p="DbMigrator" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DbMigrator.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20201006205826_AddProductTable.cs" t="Include" />
+          <e p="20201006205826_AddProductTable.Designer.cs" t="Include" />
+          <e p="ShopDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DbMigrator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="NLayerApp.BLL" t="IncludeRecursive">
+        <e p="AutoMapper" t="Include">
+          <e p="DomainProfile.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IProductAppService.cs" t="Include" />
+        </e>
+        <e p="Module.cs" t="Include" />
+        <e p="NLayerApp.BLL.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="NLayerApp.BLL.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="ProductAppService.cs" t="Include" />
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="ProductViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NLayerApp.DAL" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EntityMapping" t="Include">
+          <e p="EntityMappingConfig.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IRepository.cs" t="Include" />
+        </e>
+        <e p="Mapping" t="Include">
+          <e p="ProductMapping.cs" t="Include" />
+          <e p="ProductTypeMapping.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="Base" t="Include">
+            <e p="BaseEntity.cs" t="Include" />
+            <e p="IEntity.cs" t="Include" />
+          </e>
+          <e p="enums" t="Include">
+            <e p="TypeOfProduct.cs" t="Include" />
+          </e>
+          <e p="Product.cs" t="Include" />
+          <e p="ProductTypeEntity.cs" t="Include" />
+        </e>
+        <e p="Module.cs" t="Include" />
+        <e p="NLayerApp.DAL.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="NLayerApp.DAL.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="Data" t="Include">
+            <e p="Repository.cs" t="Include" />
+            <e p="ShopDbContext.cs" t="Include" />
+          </e>
+          <e p="IRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include" />
+      </e>
+      <e p="NLayerApp.WEB" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="Base" t="Include">
+            <e p="BaseController.cs" t="Include" />
+          </e>
+          <e p="ProductController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="OrderViewModel.cs" t="Include" />
+          <e p="PhoneViewModel.cs" t="Include" />
+        </e>
+        <e p="NLayerApp.WEB.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NLayerApp.WEB.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="angular.json" t="Include" />
+          <e p="node_modules\@angular\cli" t="IncludeRecursive" />
+          <e p="node_modules\@angular\common" t="IncludeRecursive" />
+          <e p="node_modules\@angular\compiler" t="IncludeRecursive" />
+          <e p="node_modules\@angular\compiler-cli" t="IncludeRecursive" />
+          <e p="node_modules\@angular\core" t="IncludeRecursive" />
+          <e p="node_modules\@angular\forms" t="IncludeRecursive" />
+          <e p="node_modules\@angular\platform-browser" t="IncludeRecursive" />
+          <e p="node_modules\@angular\platform-browser-dynamic" t="IncludeRecursive" />
+          <e p="node_modules\@angular\router" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\architect" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\build-angular" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\build-optimizer" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\build-webpack" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\core" t="IncludeRecursive" />
+          <e p="node_modules\@angular-devkit\schematics" t="IncludeRecursive" />
+          <e p="node_modules\@jsdevtools\coverage-istanbul-loader" t="IncludeRecursive" />
+          <e p="node_modules\@ngtools\webpack" t="IncludeRecursive" />
+          <e p="node_modules\@types" t="IncludeRecursive">
+            <e p="minimatch" t="IncludeRecursive" />
+            <e p="node" t="IncludeRecursive" />
+            <e p="source-list-map" t="IncludeRecursive" />
+          </e>
+          <e p="node_modules\acorn" t="IncludeRecursive" />
+          <e p="node_modules\aggregate-error" t="IncludeRecursive" />
+          <e p="node_modules\ajv" t="IncludeRecursive" />
+          <e p="node_modules\ajv-keywords" t="IncludeRecursive" />
+          <e p="node_modules\ansi-colors" t="IncludeRecursive" />
+          <e p="node_modules\array-union" t="IncludeRecursive" />
+          <e p="node_modules\canonical-path" t="IncludeRecursive" />
+          <e p="node_modules\chalk" t="IncludeRecursive" />
+          <e p="node_modules\clean-stack" t="IncludeRecursive" />
+          <e p="node_modules\cli-cursor" t="IncludeRecursive" />
+          <e p="node_modules\cli-spinners" t="IncludeRecursive" />
+          <e p="node_modules\commander" t="IncludeRecursive" />
+          <e p="node_modules\del" t="IncludeRecursive" />
+          <e p="node_modules\dependency-graph" t="IncludeRecursive" />
+          <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
+          <e p="node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
+          <e p="node_modules\globby" t="IncludeRecursive" />
+          <e p="node_modules\hash.js" t="IncludeRecursive" />
+          <e p="node_modules\ignore" t="IncludeRecursive" />
+          <e p="node_modules\indent-string" t="IncludeRecursive" />
+          <e p="node_modules\is-docker" t="IncludeRecursive" />
+          <e p="node_modules\is-interactive" t="IncludeRecursive" />
+          <e p="node_modules\is-path-cwd" t="IncludeRecursive" />
+          <e p="node_modules\is-path-in-cwd" t="IncludeRecursive" />
+          <e p="node_modules\is-path-inside" t="IncludeRecursive" />
+          <e p="node_modules\is-wsl" t="IncludeRecursive" />
+          <e p="node_modules\jest-worker" t="IncludeRecursive" />
+          <e p="node_modules\license-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\log-symbols" t="IncludeRecursive" />
+          <e p="node_modules\magic-string" t="IncludeRecursive" />
+          <e p="node_modules\make-dir" t="IncludeRecursive" />
+          <e p="node_modules\mimic-fn" t="IncludeRecursive" />
+          <e p="node_modules\onetime" t="IncludeRecursive" />
+          <e p="node_modules\open" t="IncludeRecursive" />
+          <e p="node_modules\ora" t="IncludeRecursive" />
+          <e p="node_modules\p-map" t="IncludeRecursive" />
+          <e p="node_modules\parse5" t="IncludeRecursive" />
+          <e p="node_modules\path-type" t="IncludeRecursive" />
+          <e p="node_modules\postcss" t="IncludeRecursive" />
+          <e p="node_modules\reflect-metadata" t="IncludeRecursive" />
+          <e p="node_modules\restore-cursor" t="IncludeRecursive" />
+          <e p="node_modules\rollup" t="IncludeRecursive" />
+          <e p="node_modules\rxjs" t="IncludeRecursive" />
+          <e p="node_modules\schema-utils" t="IncludeRecursive" />
+          <e p="node_modules\slash" t="IncludeRecursive" />
+          <e p="node_modules\source-map" t="IncludeRecursive" />
+          <e p="node_modules\sourcemap-codec" t="IncludeRecursive" />
+          <e p="node_modules\symbol-observable" t="IncludeRecursive" />
+          <e p="node_modules\terser" t="IncludeRecursive" />
+          <e p="node_modules\tree-kill" t="IncludeRecursive" />
+          <e p="node_modules\tslib" t="IncludeRecursive" />
+          <e p="node_modules\uri-js" t="IncludeRecursive" />
+          <e p="node_modules\zone.js" t="IncludeRecursive" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="src" t="Include">
+            <e p="app" t="Include">
+              <e p="app.component.css" t="Include" />
+              <e p="app.component.html" t="Include" />
+              <e p="app.component.ts" t="Include" />
+              <e p="app.module.ts" t="Include" />
+              <e p="Footer" t="Include">
+                <e p="Footer" t="Include">
+                  <e p="footer.component.css" t="Include" />
+                  <e p="footer.component.html" t="Include" />
+                  <e p="footer.component.ts" t="Include" />
+                </e>
+              </e>
+              <e p="Header" t="Include">
+                <e p="Header" t="Include">
+                  <e p="header.component.css" t="Include" />
+                  <e p="header.component.html" t="Include" />
+                  <e p="header.component.ts" t="Include" />
+                  <e p="res" t="Include">
+                    <e p="LOGO.png" t="Include" />
+                    <e p="profIcon.png" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="index.html" t="Include" />
+            <e p="main.ts" t="Include" />
+            <e p="polyfills.ts" t="Include" />
+            <e p="res" t="Include">
+              <e p="main_background.jpg" t="Include" />
+              <e p="Smoke.png" t="Include" />
+            </e>
+            <e p="styles.css" t="Include" />
+          </e>
+          <e p="tsconfig.json" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
