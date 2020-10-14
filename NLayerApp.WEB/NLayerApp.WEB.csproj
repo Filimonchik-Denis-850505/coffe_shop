@@ -21,12 +21,19 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\src\app\Footer" />
-      <Folder Include="wwwroot\src\app\Header" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\res\main_background.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\res\Smoke.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\qqwe\header\header.component.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\qqwe\header\header.component.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\qqwe\header\header.component.ts" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\qqwe\header\res\LOGO.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\qqwe\header\res\profIcon.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\rqw\footer\footer.component.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\rqw\footer\footer.component.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\rqw\footer\footer.component.ts" />
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\src\app\res\main_background.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\src\app\res\Smoke.png" />
+      <Folder Include="wwwroot\src\shared" />
     </ItemGroup>
 </Project>

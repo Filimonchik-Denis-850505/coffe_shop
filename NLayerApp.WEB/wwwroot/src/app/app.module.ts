@@ -2,9 +2,9 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
 import {AppComponent} from './app.component';
-import {HttpClient, HttpClientModule} from "@angular/common/http";;
-import { HeaderComponent } from './Header/header/header.component';
-import { FooterComponent } from './Footer/footer/footer.component'
+import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {FooterComponent} from "./footer/footer.component";
+import {HeaderComponent} from "./header/header.component";
 
 @NgModule({
     imports: [
@@ -14,7 +14,7 @@ import { FooterComponent } from './Footer/footer/footer.component'
     ],
     declarations: [
         AppComponent,
-        HeaderComponent,
+        HeaderComponent,
         FooterComponent
     ],
     bootstrap: [

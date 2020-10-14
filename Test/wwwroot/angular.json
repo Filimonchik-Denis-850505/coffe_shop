@@ -3,11 +3,6 @@
   "projects": {
     "helloangularapp": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
       "root": "",
       "sourceRoot": "src",
       "architect": {
@@ -19,14 +14,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.json",
-            "aot": true,
-            "assets": [
-              "src/assets"
-            ]
+            "aot": true
           },
-          "styles": [
-            "src/styles.scss"
-          ],
           "configurations": {
             "production": {
               "optimization": true,
@@ -47,8 +36,5 @@
       }
     }
   },
-  "defaultProject": "helloangularapp",
-  "cli": {
-    "analytics": "4bb8ed12-4d4d-42c8-9668-7f87a6bf3079"
-  }
+  "defaultProject": "helloangularapp"
 }

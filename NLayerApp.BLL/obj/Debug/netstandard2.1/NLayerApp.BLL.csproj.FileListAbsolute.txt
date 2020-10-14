@@ -21,3 +21,15 @@ C:\Users\abutg\RiderProjects\CoffeShop\NLayerApp.BLL\obj\Debug\netstandard2.1\NL
 C:\Users\abutg\RiderProjects\CoffeShop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.csproj.CopyComplete
 C:\Users\abutg\RiderProjects\CoffeShop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.dll
 C:\Users\abutg\RiderProjects\CoffeShop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.pdb
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\bin\Debug\netstandard2.1\NLayerApp.BLL.deps.json
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\bin\Debug\netstandard2.1\NLayerApp.BLL.dll
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\bin\Debug\netstandard2.1\NLayerApp.BLL.pdb
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\bin\Debug\netstandard2.1\NLayerApp.DAL.dll
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\bin\Debug\netstandard2.1\NLayerApp.DAL.pdb
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.csprojAssemblyReference.cache
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.AssemblyInfoInputs.cache
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.AssemblyInfo.cs
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.csproj.CopyComplete
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.dll
+C:\Users\abutg\RiderProjects\coffe_shop\NLayerApp.BLL\obj\Debug\netstandard2.1\NLayerApp.BLL.pdb
