@@ -30,8 +30,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e754528-82ef-4391-85b1-aa52c57b5a1c" name="Default Changelist" comment="Init app.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +69,6 @@
     <setting file="file://$PROJECT_DIR$/DbMigrator/Migrations/20201006205826_AddProductTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Mapping/ProductMapping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DbMigrator/Migrations/ShopDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/abutg/RiderProjects/coffe_shop/NLayerApp.WEB/Models/OrderViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.BLL/Interfaces/IProductAppService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.BLL/ViewModels/ProductViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -90,17 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Base/IEntity.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.BLL/ViewModels/ProductViewModel.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.BLL/AutoMapper/DomainProfile.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.BLL/Module.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.DAL/NLayerApp.DAL.csproj" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/Program.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/NLayerApp.WEB.csproj" />
-        <option value="$PROJECT_DIR$/Test/Startup.cs" />
-        <option value="$PROJECT_DIR$/Test/Test.csproj" />
-        <option value="$PROJECT_DIR$/DbMigrator/Program.cs" />
         <option value="$PROJECT_DIR$/DbMigrator/Startup.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/Migrations/ShopDbContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/Migrations/20201006202118_qwe.cs" />
@@ -124,23 +118,34 @@
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/tsconfig.json" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/Header/header/header.component.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/styles.css" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/Header/header/header.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/Header/header/header.component.css" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/Footer/footer/footer.component.css" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/Footer/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/angular.json" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.scss" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/catalog/catalog.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/catalog/catalog.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.scss" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.scss" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.module.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home-routing.module.ts" />
       </list>
     </option>
   </component>
@@ -267,7 +272,9 @@
       <workItem from="1602360543050" duration="3050000" />
       <workItem from="1602612169340" duration="2765000" />
       <workItem from="1602618036987" duration="3945000" />
-      <workItem from="1602685596341" duration="7968000" />
+      <workItem from="1602685596341" duration="8572000" />
+      <workItem from="1602763597046" duration="500000" />
+      <workItem from="1602856896902" duration="15640000" />
     </task>
     <task id="LOCAL-00001" summary="Init app.">
       <created>1602618150303</created>
@@ -290,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602705424672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update main page">
+      <created>1602710577012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602710577012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,34 +356,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602108510441" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602706268300">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602710829398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602706268300" />
-    <state width="1877" height="477" key="GridCell.Tab.0.bottom" timestamp="1602701546687">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602710829398" />
+    <state width="1877" height="477" key="GridCell.Tab.0.bottom" timestamp="1602881051793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="478" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602354750821" />
     <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="477" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602701546687" />
-    <state width="1877" height="477" key="GridCell.Tab.0.center" timestamp="1602701546686">
+    <state width="1877" height="477" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602881051793" />
+    <state width="1877" height="477" key="GridCell.Tab.0.center" timestamp="1602881051793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="478" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602354750820" />
     <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="477" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602701546686" />
-    <state width="1877" height="477" key="GridCell.Tab.0.left" timestamp="1602701546686">
+    <state width="1877" height="477" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602881051793" />
+    <state width="1877" height="477" key="GridCell.Tab.0.left" timestamp="1602881051793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="478" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602354750819" />
     <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="477" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602701546686" />
-    <state width="1877" height="477" key="GridCell.Tab.0.right" timestamp="1602701546686">
+    <state width="1877" height="477" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602881051793" />
+    <state width="1877" height="477" key="GridCell.Tab.0.right" timestamp="1602881051793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="478" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602354750820" />
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="477" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602701546686" />
+    <state width="1877" height="477" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602881051793" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1602110134829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -457,10 +471,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601912309845" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602618152565">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602710583343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602618152565" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602710583343" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602107849052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

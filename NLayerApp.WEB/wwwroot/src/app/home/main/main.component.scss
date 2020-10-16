@@ -1,0 +1,27 @@
+.mainInf{
+  position: absolute;
+  top:180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  left:50%;
+}
+
+.title{
+  font-family: Labor Union, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 91px;
+  color:#E9C3E5;
+}
+
+.description{
+  font-family: Labor Union, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+
+  align-self: center;
+  color: #EBCCCC;
+}

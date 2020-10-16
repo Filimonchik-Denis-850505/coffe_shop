@@ -251,6 +251,7 @@
           <e p="package.json" t="Include" />
           <e p="src" t="Include">
             <e p="app" t="Include">
+              <e p="app-routing.module.ts" t="Include" />
               <e p="app.component.html" t="Include" />
               <e p="app.component.scss" t="Include" />
               <e p="app.component.ts" t="Include" />
@@ -264,6 +265,28 @@
                 <e p="header.component.html" t="Include" />
                 <e p="header.component.scss" t="Include" />
                 <e p="header.component.ts" t="Include" />
+              </e>
+              <e p="home" t="Include">
+                <e p="catalog" t="Include">
+                  <e p="catalog-routing.module.ts" t="Include" />
+                  <e p="catalog.component.html" t="Include" />
+                  <e p="catalog.component.scss" t="Include" />
+                  <e p="catalog.component.ts" t="Include" />
+                  <e p="catalog.module.ts" t="Include" />
+                </e>
+                <e p="home-routing.module.ts" t="Include" />
+                <e p="home.component.html" t="Include" />
+                <e p="home.component.scss" t="Include" />
+                <e p="home.component.ts" t="Include" />
+                <e p="home.module.ts" t="Include" />
+                <e p="main" t="Include">
+                  <e p="main-routing.module.ts" t="Include" />
+                  <e p="main.component.html" t="Include" />
+                  <e p="main.component.scss" t="Include" />
+                  <e p="main.component.spec.ts" t="Include" />
+                  <e p="main.component.ts" t="Include" />
+                  <e p="main.module.ts" t="Include" />
+                </e>
               </e>
             </e>
             <e p="asserts" t="Include">
