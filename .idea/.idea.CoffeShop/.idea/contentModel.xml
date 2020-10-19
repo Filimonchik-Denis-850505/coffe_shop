@@ -267,6 +267,7 @@
                 <e p="header.component.ts" t="Include" />
               </e>
               <e p="home" t="Include">
+                <e p="basket" t="Include" />
                 <e p="catalog" t="Include">
                   <e p="catalog-routing.module.ts" t="Include" />
                   <e p="catalog.component.html" t="Include" />
@@ -283,10 +284,10 @@
                   <e p="main-routing.module.ts" t="Include" />
                   <e p="main.component.html" t="Include" />
                   <e p="main.component.scss" t="Include" />
-                  <e p="main.component.spec.ts" t="Include" />
                   <e p="main.component.ts" t="Include" />
                   <e p="main.module.ts" t="Include" />
                 </e>
+                <e p="shipping-payment" t="Include" />
               </e>
             </e>
             <e p="asserts" t="Include">
@@ -300,6 +301,10 @@
             <e p="index.html" t="Include" />
             <e p="main.ts" t="Include" />
             <e p="polyfills.ts" t="Include" />
+            <e p="res" t="Include">
+              <e p="main_background.jpg" t="Include" />
+              <e p="Smoke.png" t="Include" />
+            </e>
             <e p="shared" t="Include" />
             <e p="styles.scss" t="Include" />
           </e>

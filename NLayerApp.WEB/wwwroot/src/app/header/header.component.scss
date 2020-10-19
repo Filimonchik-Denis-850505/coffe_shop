@@ -1,32 +1,43 @@
   .logo {
-    width: 147px;
-    height: 110px;
+    width: 180px;
+    height: 130px;
+    
     background: url(../../asserts/header/LOGO.png);
+    background-size: cover;
   }
 
   .refBlock {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
   }
 
   .headerRef {
+    padding: 20px;
     font-family: Montserrat, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 34px;
-    line-height: 41px;
-    text-align: center;
-    padding-top: 20px;
-    margin-right: 45px;
+
     color: #342B2B;
+  }
+
+  .headerRef a{
+    text-decoration: none;
+  }
+  
+  .headerRef:hover {
+    background: rgba(255,255,255,.2);
+  }
+
+  .headerRef:active {
+    background: white;
   }
 
   .profIcon {
     width: 86px;
     height: 86px;
-    margin-top: 10px;
-    margin-right: 20px;
-    
-    background: url(../../asserts/header/profIcon.png);
+
+    background-image: url(../../asserts/header/profIcon.png);
+    background-size: cover;
   }

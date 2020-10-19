@@ -1,14 +1,13 @@
-.mainInf{
-  position: absolute;
-  top:180px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  left:50%;
+.main {
+  padding-top: 30px;
+  padding-bottom: 300px;
 }
 
+
 .title{
+  text-align: center;
+  padding-bottom: 20px;
+
   font-family: Labor Union, serif;
   font-style: normal;
   font-weight: normal;
@@ -16,7 +15,9 @@
   color:#E9C3E5;
 }
 
-.description{
+.description {
+  text-align: center;
+
   font-family: Labor Union, serif;
   font-style: normal;
   font-weight: normal;

@@ -1,9 +1,17 @@
-.about{
-    display: flex;
-    padding-right: 262px;
-    
-  
-  div{
-    padding: 26px;
-  }
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about {
+  font-family: Montserrat,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  border-color: forestgreen;
+
+  color: #000000;
 }

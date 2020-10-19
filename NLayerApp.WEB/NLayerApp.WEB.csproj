@@ -31,9 +31,14 @@
       <_ContentIncludedByDefault Remove="wwwroot\src\app\rqw\footer\footer.component.css" />
       <_ContentIncludedByDefault Remove="wwwroot\src\app\rqw\footer\footer.component.html" />
       <_ContentIncludedByDefault Remove="wwwroot\src\app\rqw\footer\footer.component.ts" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\footer\footer\footer.component.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\footer\footer\footer.component.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\footer\footer\footer.component.ts" />
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="wwwroot\src\app\home\basket" />
+      <Folder Include="wwwroot\src\app\home\shipping-payment" />
       <Folder Include="wwwroot\src\shared" />
     </ItemGroup>
 </Project>
