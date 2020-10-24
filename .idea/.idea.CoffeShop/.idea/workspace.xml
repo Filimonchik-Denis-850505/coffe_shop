@@ -35,12 +35,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/NLayerApp.WEB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/NLayerApp.WEB.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer/footer.component.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header/res/LOGO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header/res/profIcon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +116,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/Migrations/20201006202118_qwe.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Repositories/Data/ShopDbContext.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Startup.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/ProductTypeEntity.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/EntityMapping/EntityMappingConfig.cs" />
@@ -129,6 +149,7 @@
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.module.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/catalog/catalog.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/catalog/catalog.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app-routing.module.ts" />
@@ -136,20 +157,16 @@
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home-routing.module.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.scss" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.scss" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.scss" />
       </list>
     </option>
   </component>
@@ -281,12 +298,7 @@
       <workItem from="1602856896902" duration="15640000" />
       <workItem from="1602923195771" duration="4618000" />
       <workItem from="1603124074660" duration="850000" />
-      <workItem from="1603127214719" duration="8733000" />
-      <workItem from="1603225289198" duration="3552000" />
-      <workItem from="1603262724274" duration="1207000" />
-      <workItem from="1603447749904" duration="763000" />
-      <workItem from="1603468462225" duration="16777000" />
-      <workItem from="1603530322582" duration="11502000" />
+      <workItem from="1603127214719" duration="7992000" />
     </task>
     <task id="LOCAL-00001" summary="Init app.">
       <created>1602618150303</created>
@@ -316,35 +328,7 @@
       <option name="project" value="LOCAL" />
       <updated>1602710577012</updated>
     </task>
-    <task id="LOCAL-00005" summary="change front">
-      <created>1603137965144</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1603137965144</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add README">
-      <created>1603230042704</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1603230042704</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add README">
-      <created>1603263058864</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1603263058864</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update README">
-      <created>1603263326590</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1603263326590</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,10 +369,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init app." />
     <MESSAGE value="update main page" />
-    <MESSAGE value="change front" />
-    <MESSAGE value="add README" />
-    <MESSAGE value="update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602022849271">
@@ -399,33 +380,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602108510441" />
-    <state x="74" y="73" width="1389" height="679" key="DiffContextDialog" timestamp="1603263351108">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602710829398">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="74" y="73" width="1389" height="679" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1603263351108" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602710829398" />
-    <state width="1493" height="361" key="GridCell.Tab.0.bottom" timestamp="1603448517748">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1037" height="473" key="GridCell.Tab.0.bottom" timestamp="1603135549606">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603448517748" />
+    <state width="1877" height="478" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602354750821" />
     <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1037" height="473" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603135549606" />
-    <state width="1493" height="361" key="GridCell.Tab.0.center" timestamp="1603448517748">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1037" height="473" key="GridCell.Tab.0.center" timestamp="1603135549606">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603448517748" />
+    <state width="1877" height="478" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602354750820" />
     <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1037" height="473" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603135549606" />
-    <state width="1493" height="361" key="GridCell.Tab.0.left" timestamp="1603448517748">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1037" height="473" key="GridCell.Tab.0.left" timestamp="1603135549606">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603448517748" />
+    <state width="1877" height="478" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602354750819" />
     <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1037" height="473" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603135549606" />
-    <state width="1493" height="361" key="GridCell.Tab.0.right" timestamp="1603448517748">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1037" height="473" key="GridCell.Tab.0.right" timestamp="1603135549606">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="361" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603448517748" />
+    <state width="1877" height="478" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602354750820" />
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1037" height="473" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603135549606" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1602110134829">
@@ -492,14 +472,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.4.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602110134829" />
-    <state x="147" y="65" key="MergeDialog" timestamp="1603263107160">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603263107160" />
-    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1603263107168">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603263107168" />
     <state x="451" y="182" key="Rider.ProjectTemplateDialog.Size" timestamp="1602324215678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -523,11 +495,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601912309845" />
-    <state x="442" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603263334958">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602710583343">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="442" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603263334958" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603137979857" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602710583343" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602107849052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

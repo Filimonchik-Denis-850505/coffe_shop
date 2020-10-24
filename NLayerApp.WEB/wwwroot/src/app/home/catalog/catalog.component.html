@@ -10,19 +10,19 @@
                 </ul>
             </nav>
         </header>
-        
+
         <div class="catalog">
-            <div class="catalog-item">
+            <div class="catalog-item" *ngFor="let item of tmpTitle">
                 <div class="product">
                     <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                     <div class = "product-content">
-                         <h3 class="product-title">Акула</h3>
-                         <p class="product-description">лдыво адлвыоадлоы вдлаодл ывоалдывлоа шрвапл ваплорва вапрва ваплорва апл рвалоп равлор плоавр плорвап</p>
-                     </div>
+                    <div class = "product-content">
+                        <h3 class="product-title">{{item}}</h3>
+                        <p class="product-description">{{description}}</p>
+                    </div>
                     <footer class="product-footer">
                         <div class="product-bottom">
                             <div class="product-price">
-                                <span class="product-price-value">850</span>
+                                <span class="product-price-value">859</span>
                                 <span class="product-currency">&#8381;</span>
                             </div>
                             <button class="btn product-btn" type="button">в корзину</button>
@@ -30,169 +30,6 @@
                     </footer>
                 </div>
             </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдыв оадлвыоа длоывдлаодлы воалдывлоа п авп вап ав п авп ав пвапвап авпвап dfgdf g fdg dfg fd g dfg sdf fsd f sd f sd  f sd f sd f sd f   sdfsdfsdfsd f sd fsdf</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаодлывоалдывлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаодлывоалдывлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаодлывоалдывлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаод sd fs sdf sd s fsdf sd fsd s s s dfsd fsdfs fsd fs ds f sd fsd fsdf sdf sd fлывоалды fds fd sf sd f sd  f dsвлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаодлывоалдывлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаодлывоалдывлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаодлывоалдывлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-            <div class="catalog-item">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">Акула</h3>
-                        <p class="product-description">лдывоадлвыоадлоывдлаодлывоалдывлоа</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">850</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">заказать</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
         </div>
     </div>
 </section>
-
