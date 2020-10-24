@@ -34,6 +34,12 @@
       <_ContentIncludedByDefault Remove="wwwroot\src\app\footer\footer\footer.component.css" />
       <_ContentIncludedByDefault Remove="wwwroot\src\app\footer\footer\footer.component.html" />
       <_ContentIncludedByDefault Remove="wwwroot\src\app\footer\footer\footer.component.ts" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\tmpImg\1.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\tmpImg\2.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\tmpImg\3.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\tmpImg\4.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\tmpImg\5.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\src\app\tmpImg\6.png" />
     </ItemGroup>
 
     <ItemGroup>

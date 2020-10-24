@@ -1,0 +1,214 @@
+//NAVIGATION
+
+.section {
+  padding: 90px 0;
+
+  .header {
+    margin-bottom: 90px;
+  }
+
+  .title {
+    font-size: 54px;
+    text-align: center;
+    margin: 0 auto 40px;
+    font-family: Labor Union, serif;
+    font-weight: 900;
+    color: #EBCCCC;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .section .title {
+    font-size: 36px;
+  }
+}
+
+.catalog-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-nav__wrapper {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+  border-radius: 23px;
+  background-color: #EBCCCC;
+  overflow: hidden;
+}
+
+.catalog-nav__btn {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px;
+  min-width: 115px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d53e69;
+  border-right: 1px solid;
+  transition: border .2s, background .2s, color .2s;
+}
+
+.catalog-nav__btn.is-active {
+  background: #d53e69;
+  color: aliceblue;
+  border-right-color: #d53e69;
+}
+
+.catalog-nav__btn:not(.is-active):hover {
+  background: #E9C3E5;
+  color:white;
+}
+
+.catalog-nav__item:last-of-type .catalog-nav__btn {
+  border-right:0;
+}
+
+@media (max-width: 715px) {
+  .catalog-nav {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .catalog-nav__wrapper {
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .catalog-nav__item {
+    width: 50%;
+    flex-grow: 1;
+  }
+  
+  .catalog-nav__btn {
+    min-width: 0;
+    width: 100%;
+    border-top: 1px solid #d53e69;
+  }
+
+  .catalog-nav__item:nth-of-type(1) .catalog-nav__btn,
+  .catalog-nav__item:nth-of-type(2) .catalog-nav__btn{
+    border-top:0;
+  }
+
+  .catalog-nav__item:nth-of-type(even) .catalog-nav__btn{
+    border-right:0;
+  }
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//CATALOG
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  width: 925px;
+  margin: auto;
+}
+
+.catalog-item {
+  width: calc(100%/3);
+  display: flex;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.catalog-item::before {
+  content: '';
+  background:#EBCCCC;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+.catalog-item:nth-of-type(3n + 1)::before {
+  content: none;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-img {
+  width: 200px;
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.product-title {
+  margin: 0 0 10px;
+  font-weight: 900;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.product-description {
+  margin: 0;
+}
+
+.product-content {
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+.product-price {
+  font-family: Montserrat, sans-serif;
+  font-size:22px;
+  font-weight: 900;
+  color: #EBCCCC;
+}
+
+.product-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 13px;
+}
+
+.product-btn {
+  display: inline-block;
+  color: black;
+  font-size: 90%;
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.15em 0.5em;
+  outline: none;
+  border: 1px solid #EBCCCC;
+  border-radius: 7px;
+  background: #EBCCCC;
+  box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.product-btn:hover {
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5);
+}
+.product-btn:active {
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
