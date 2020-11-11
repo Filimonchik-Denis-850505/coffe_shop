@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
+import {CatalogService} from "./catalog.service";
+import {Product} from "../../product";
 
 @Component({
   selector: 'catalog',
@@ -8,16 +11,17 @@ import { Component, OnInit } from '@angular/core';
 export class CatalogComponent implements OnInit {
   navBar = ['все', 'чай', 'кофе', 'травы'];
   selectedId: string = this.navBar[0];
-
-  tmpTitle = ['Name1', 'Name2','Name3','Name4','Name5', 'Name6','Name7','Name8'];
-  description: string = "dks hfkjsdh fjkhsdkj fhksdhfkj hsd kjfhk jsdhfk jhsd kjfhkj sdhf kjhsdk jfh";
-
-  constructor() { }
-
+  
+  constructor(private router:Router) { }
+  
   ngOnInit(): void {
+    //this.router.navigateByUrl("home/catalog/all");
   }
-
-  onSwitchNavItem(item: string){
+  
+  onSwitchNavItem(item: string) {
     this.selectedId = item;
+    if(this.selectedId == this.navBar[0]) this.router.navigateByUrl("home/catalog/all");
+    if(this.selectedId == this.navBar[2]) this.router.navigateByUrl("home/catalog/coffe");
+    if(this.selectedId == this.navBar[1]) this.router.navigateByUrl("home/catalog/tea");
   }
 }

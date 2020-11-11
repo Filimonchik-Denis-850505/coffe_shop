@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 using AutoMapper;
 
 using NLayerApp.DAL.Model;
+using NLayerApp.DAL.Model.Enums;
 using NLayerApp.DAL.Repositories;
 using NLayerApp.DLL.Interfaces;
 using NLayerApp.DLL.ViewModels;
@@ -25,6 +26,25 @@ namespace NLayerApp.DLL.Services
         public async Task<IEnumerable<ProductViewModel>> GetProducts()
         {
             return _mapper.Map<IEnumerable<ProductViewModel>>(await _productRepository.Query());
+        }
+
+        public async Task<IEnumerable<ProductViewModel>> GetCategoryOfProducts(string type)
+        {
+            ProductType tmp = ProductType.Tea;
+            
+            string typeP = type.ToUpper();
+            
+            switch (typeP)
+            {
+                case "TEA":
+                    tmp = ProductType.Tea;
+                    break;
+                case "COFFE":
+                    tmp = ProductType.Coffe;
+                    break;
+            }
+
+            return _mapper.Map<IEnumerable<ProductViewModel>>(await _productRepository.Query(x => x.ProductTypeId == tmp));
         }
     }
 }

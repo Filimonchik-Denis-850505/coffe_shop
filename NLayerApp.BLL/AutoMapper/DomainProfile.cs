@@ -9,8 +9,7 @@ namespace NLayerApp.DLL.AutoMapper
     {
         public DomainProfile()
         {
-            CreateMap<Product, ProductViewModel>()
-                .ForMember(dest => dest.Name, opt => opt.MapFrom(x => x.Name));
+            CreateMap<Product, ProductViewModel>();
         }
     }
 }

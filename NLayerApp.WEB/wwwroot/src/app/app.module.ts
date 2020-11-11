@@ -11,6 +11,9 @@ import {HeaderComponent} from "./header/header.component";
 import {AppRoutingModule} from './app-routing.module';
 import {HomeComponent} from "./home/home.component";
 
+import {HttpClientInMemoryWebApiModule} from "angular-in-memory-web-api";
+import { InMemoryDataService } from './in-memory-data.service';
+
 
 @NgModule({
     imports: [
@@ -35,3 +38,7 @@ import {HomeComponent} from "./home/home.component";
 })
 export class AppModule {
 }
+
+HttpClientInMemoryWebApiModule.forRoot(
+    InMemoryDataService, { dataEncapsulation: false }
+)

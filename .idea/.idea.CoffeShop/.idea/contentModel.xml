@@ -11,6 +11,8 @@
         <e p="Migrations" t="Include">
           <e p="20201006205826_AddProductTable.cs" t="Include" />
           <e p="20201006205826_AddProductTable.Designer.cs" t="Include" />
+          <e p="20201101165026_add_new_data.cs" t="Include" />
+          <e p="20201101165026_add_new_data.Designer.cs" t="Include" />
           <e p="ShopDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -142,6 +144,7 @@
           <e p="node_modules\aggregate-error" t="IncludeRecursive" />
           <e p="node_modules\ajv" t="IncludeRecursive" />
           <e p="node_modules\ajv-keywords" t="IncludeRecursive" />
+          <e p="node_modules\angular-in-memory-web-api" t="IncludeRecursive" />
           <e p="node_modules\ansi-colors" t="IncludeRecursive" />
           <e p="node_modules\array-union" t="IncludeRecursive" />
           <e p="node_modules\canonical-path" t="IncludeRecursive" />
@@ -269,11 +272,33 @@
               <e p="home" t="Include">
                 <e p="basket" t="Include" />
                 <e p="catalog" t="Include">
+                  <e p="all-products" t="Include">
+                    <e p="all-products-routing.module.ts" t="Include" />
+                    <e p="all-products.component.html" t="Include" />
+                    <e p="all-products.component.scss" t="Include" />
+                    <e p="all-products.component.ts" t="Include" />
+                    <e p="all-products.module.ts" t="Include" />
+                  </e>
                   <e p="catalog-routing.module.ts" t="Include" />
                   <e p="catalog.component.html" t="Include" />
                   <e p="catalog.component.scss" t="Include" />
                   <e p="catalog.component.ts" t="Include" />
                   <e p="catalog.module.ts" t="Include" />
+                  <e p="catalog.service.ts" t="Include" />
+                  <e p="coffe-products" t="Include">
+                    <e p="coffe-products-routing.module.ts" t="Include" />
+                    <e p="coffe-products.component.html" t="Include" />
+                    <e p="coffe-products.component.scss" t="Include" />
+                    <e p="coffe-products.component.ts" t="Include" />
+                    <e p="coffe-products.module.ts" t="Include" />
+                  </e>
+                  <e p="tea-products" t="Include">
+                    <e p="tea-products-routing.module.ts" t="Include" />
+                    <e p="tea-products.component.html" t="Include" />
+                    <e p="tea-products.component.scss" t="Include" />
+                    <e p="tea-products.component.ts" t="Include" />
+                    <e p="tea-products.module.ts" t="Include" />
+                  </e>
                 </e>
                 <e p="home-routing.module.ts" t="Include" />
                 <e p="home.component.html" t="Include" />
@@ -289,6 +314,8 @@
                 </e>
                 <e p="shipping-payment" t="Include" />
               </e>
+              <e p="in-memory-data.service.ts" t="Include" />
+              <e p="product.ts" t="Include" />
             </e>
             <e p="asserts" t="Include">
               <e p="Header" t="Include">

@@ -5,31 +5,11 @@
             <nav class="catalog-nav">
                 <ul class="catalog-nav__wrapper">
                     <li class="catalog-nav__item" *ngFor="let item of navBar;" (click)="onSwitchNavItem(item)">
-                        <button class="catalog-nav__btn" [ngClass]="{'is-active': selectedId === item}" type = "button">{{item}}</button>
+                        <button class="catalog-nav__btn" [ngClass]="{'is-active': selectedId === item}"  type = "button">{{item}}</button>
                     </li>
                 </ul>
             </nav>
         </header>
-
-        <div class="catalog">
-            <div class="catalog-item" *ngFor="let item of tmpTitle">
-                <div class="product">
-                    <img src = "src/tmpImg/1.png" alt = "" class="product-img">
-                    <div class = "product-content">
-                        <h3 class="product-title">{{item}}</h3>
-                        <p class="product-description">{{description}}</p>
-                    </div>
-                    <footer class="product-footer">
-                        <div class="product-bottom">
-                            <div class="product-price">
-                                <span class="product-price-value">859</span>
-                                <span class="product-currency">&#8381;</span>
-                            </div>
-                            <button class="btn product-btn" type="button">в корзину</button>
-                        </div>
-                    </footer>
-                </div>
-            </div>
-        </div>
+        <router-outlet></router-outlet>
     </div>
 </section>

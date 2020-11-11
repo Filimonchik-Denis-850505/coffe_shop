@@ -121,6 +121,7 @@
 .catalog-item {
   width: calc(100%/3);
   display: flex;
+  justify-content: center;
   margin-bottom: 90px;
   position: relative;
 }
@@ -163,7 +164,7 @@
 }
 
 .product-description {
-  margin: 0;
+      
   font-family: Montserrat, sans-serif;
 }
 

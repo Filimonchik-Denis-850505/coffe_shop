@@ -1,4 +1,4 @@
-﻿﻿namespace NLayerApp.DAL.Model.Base
+﻿namespace NLayerApp.DAL.Model.Base
 {
     public interface IEntity<out TKey>
     {

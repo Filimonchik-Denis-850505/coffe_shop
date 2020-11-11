@@ -6,6 +6,7 @@ import {CatalogComponent} from "./catalog.component";
 
 
 
+
 @NgModule({
   declarations: [CatalogComponent],
   imports: [
