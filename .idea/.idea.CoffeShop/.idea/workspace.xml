@@ -38,12 +38,9 @@
       <change beforePath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/AutoMapper/DomainProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/AutoMapper/DomainProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/Interfaces/IProductAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/Interfaces/IProductAppService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/Services/ProductAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/Services/ProductAppService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/ViewModels/ProductViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/ViewModels/ProductViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.BLL.dll" afterDir="false" />
@@ -53,33 +50,31 @@
       <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Base/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Model/Base/IEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Module.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Module.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Mapping/ProductMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Mapping/ProductMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/NLayerApp.WEB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/NLayerApp.WEB.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/product.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +106,7 @@
     <setting file="file://$PROJECT_DIR$/DbMigrator/Migrations/ShopDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/908A8571-4C18-4336-96AB-2103BCABEBCC/DB/Migration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AABF22C8-0443-4F75-A371-6B76C765A950/66/07483d4e/Profile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.BLL/Interfaces/IProductAppService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C7363AB1-97DF-48A4-8983-2063E8A551C2/6/IISMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.BLL/ViewModels/ProductViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -161,57 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/angular.json" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/catalog/catalog.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/catalog/catalog.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.scss" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home-routing.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/index.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/main/main.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/footer/footer.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.scss" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Module.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.BLL/AutoMapper/DomainProfile.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Base/IEntity.cs" />
         <option value="$PROJECT_DIR$/DbMigrator/Migrations/20201101165026_add_new_data.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.BLL/ViewModels/ProductViewModel.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/product.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/in-memory-data.service.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.BLL/Interfaces/IProductAppService.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all/all.component.spec.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all/all.component.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all/all.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products-routing.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.BLL/Services/ProductAppService.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/coffe-products/coffe-products.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/Controllers/ProductController.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.service.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/coffe-products/coffe-products.component.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.scss" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog-routing.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/tea-products/tea-products.component.html" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/tea-products/tea-products.component.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.BLL/Services/ProductAppService.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog-routing.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/med-herbs-products/med-herbs-products.component.html" />
+        <option value="$PROJECT_DIR$/DbMigrator/Migrations/20201111154101__AddData.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/med-herbs-products/med-herbs-products.component.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home-routing.module.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/header/header.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/basket/basket.component.scss" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/models/basketModel.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.component.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Mapping/ProductMapping.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.BLL/ViewModels/ProductViewModel.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/models/basket.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/product.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/basket/basket.component.html" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/basket/basket.component.ts" />
+        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.service.ts" />
       </list>
     </option>
   </component>
@@ -350,7 +346,10 @@
       <workItem from="1604221898918" duration="26708000" />
       <workItem from="1604315039343" duration="1983000" />
       <workItem from="1604503712029" duration="2347000" />
-      <workItem from="1604930978219" duration="37133000" />
+      <workItem from="1604930978219" duration="44065000" />
+      <workItem from="1605213208332" duration="422000" />
+      <workItem from="1605348540033" duration="17484000" />
+      <workItem from="1605432920831" duration="14245000" />
     </task>
     <task id="LOCAL-00001" summary="Init app.">
       <created>1602618150303</created>
@@ -380,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602710577012</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add catalog navigation(child subcatalog)">
+      <created>1605106573341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605106573341</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +428,8 @@
     <MESSAGE value="Init app." />
     <MESSAGE value="update main page" />
     <MESSAGE value="add beta-catalog" />
-    <option name="LAST_COMMIT_MESSAGE" value="add beta-catalog" />
+    <MESSAGE value="add catalog navigation(child subcatalog)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add catalog navigation(child subcatalog)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="57" key="#Inspection_severity" timestamp="1605095427133">
@@ -445,28 +452,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603550954576" />
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1605105916063">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1605447759236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605105916063" />
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605447759236" />
     <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1877" height="327" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603563821949" />
-    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1605105916063">
+    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1605447759236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605105916063" />
+    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605447759236" />
     <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1877" height="327" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603563821949" />
-    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1605105916063">
+    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1605447759236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605105916063" />
+    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605447759236" />
     <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1877" height="327" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603563821948" />
-    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1605105916063">
+    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1605447759236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605105916063" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605447759236" />
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
     <state width="1877" height="327" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603563821949" />
     <state width="1493" height="273" key="GridCell.Tab.1.bottom" timestamp="1604324006614">
@@ -572,10 +579,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601912309845" />
-    <state x="442" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604258268977">
+    <state x="442" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605106582243">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604258268977" />
+    <state x="442" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605106582243" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602710583343" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602107849052">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -597,5 +604,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605092841883" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605452479305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605452479305" />
   </component>
 </project>

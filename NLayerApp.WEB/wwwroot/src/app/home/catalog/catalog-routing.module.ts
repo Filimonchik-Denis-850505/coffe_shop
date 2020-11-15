@@ -6,7 +6,8 @@ import { CatalogComponent } from './catalog.component';
 const childRoutes = [
     { path: 'all', loadChildren: () => import('./all-products/all-products.module').then(m => m.AllProductsModule)},
     { path: 'coffe', loadChildren: () => import('./coffe-products/coffe-products.module').then(m => m.CoffeProductsModule)},
-    { path: 'tea', loadChildren: () => import('./tea-products/tea-products.module').then(m => m.TeaProductsModule)}
+    { path: 'tea', loadChildren: () => import('./tea-products/tea-products.module').then(m => m.TeaProductsModule)},
+    { path: 'herbs', loadChildren: () => import('./med-herbs-products/med-herbs-products.module').then(m => m.MedHerbsProductsModule)}
 ]
 
 const routes: Routes = [

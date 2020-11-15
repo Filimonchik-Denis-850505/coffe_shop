@@ -13,6 +13,8 @@
           <e p="20201006205826_AddProductTable.Designer.cs" t="Include" />
           <e p="20201101165026_add_new_data.cs" t="Include" />
           <e p="20201101165026_add_new_data.Designer.cs" t="Include" />
+          <e p="20201111154101__AddData.cs" t="Include" />
+          <e p="20201111154101__AddData.Designer.cs" t="Include" />
           <e p="ShopDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -270,7 +272,13 @@
                 <e p="header.component.ts" t="Include" />
               </e>
               <e p="home" t="Include">
-                <e p="basket" t="Include" />
+                <e p="basket" t="Include">
+                  <e p="basket-routing.module.ts" t="Include" />
+                  <e p="basket.component.html" t="Include" />
+                  <e p="basket.component.scss" t="Include" />
+                  <e p="basket.component.ts" t="Include" />
+                  <e p="basket.module.ts" t="Include" />
+                </e>
                 <e p="catalog" t="Include">
                   <e p="all-products" t="Include">
                     <e p="all-products-routing.module.ts" t="Include" />
@@ -292,6 +300,13 @@
                     <e p="coffe-products.component.ts" t="Include" />
                     <e p="coffe-products.module.ts" t="Include" />
                   </e>
+                  <e p="med-herbs-products" t="Include">
+                    <e p="med-herbs-products-routing.module.ts" t="Include" />
+                    <e p="med-herbs-products.component.html" t="Include" />
+                    <e p="med-herbs-products.component.scss" t="Include" />
+                    <e p="med-herbs-products.component.ts" t="Include" />
+                    <e p="med-herbs-products.module.ts" t="Include" />
+                  </e>
                   <e p="tea-products" t="Include">
                     <e p="tea-products-routing.module.ts" t="Include" />
                     <e p="tea-products.component.html" t="Include" />
@@ -311,6 +326,9 @@
                   <e p="main.component.scss" t="Include" />
                   <e p="main.component.ts" t="Include" />
                   <e p="main.module.ts" t="Include" />
+                </e>
+                <e p="Models" t="Include">
+                  <e p="basket.ts" t="Include" />
                 </e>
                 <e p="shipping-payment" t="Include" />
               </e>

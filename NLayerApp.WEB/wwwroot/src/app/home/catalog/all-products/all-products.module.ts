@@ -7,6 +7,9 @@ import { AllProductsComponent } from './all-products.component';
 
 @NgModule({
   declarations: [AllProductsComponent],
+  exports: [
+    AllProductsComponent
+  ],
   imports: [
     CommonModule,
     AllProductsRoutingModule

@@ -30,6 +30,7 @@ namespace NLayerApp.DAL.Mapping
             builder.Property(x => x.Name).IsRequired();
             builder.Property(x => x.ProductTypeId).IsRequired()
                 .HasConversion(new EnumToNumberConverter<ProductType, int>());
+            builder.Property(x => x.Id).IsRequired();
             builder.Property(x => x.Description).IsRequired();
         }
         

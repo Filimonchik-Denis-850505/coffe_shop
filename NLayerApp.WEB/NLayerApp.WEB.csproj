@@ -43,7 +43,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\src\app\home\basket" />
       <Folder Include="wwwroot\src\app\home\shipping-payment" />
       <Folder Include="wwwroot\src\shared" />
     </ItemGroup>

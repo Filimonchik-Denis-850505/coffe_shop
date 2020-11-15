@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {CatalogService} from "../catalog.service";
 import {Product} from "../../../product";
 
@@ -17,10 +17,15 @@ export class AllProductsComponent implements OnInit {
     this.getAllProducts();
   }
 
-  allProductList: Product[];
-
+  allProductList: Product[] = [];
+  
   getAllProducts(): void {
-    this.catalogService.getProducts().subscribe(products =>this.allProductList = products);
+    this.catalogService.getProducts().subscribe(products => this.allProductList = products.sort((a,b) => b.price - a.price));
+  }
+  
+  addToBasket(item:Product): void {
+    console.log(item);
+     this.catalogService.addToBasket(item);
   }
 
 }

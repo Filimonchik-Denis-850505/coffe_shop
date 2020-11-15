@@ -42,6 +42,9 @@ namespace NLayerApp.DLL.Services
                 case "COFFE":
                     tmp = ProductType.Coffe;
                     break;
+                case "MEDHERBS":
+                    tmp = ProductType.MedHerbs;
+                    break;
             }
 
             return _mapper.Map<IEnumerable<ProductViewModel>>(await _productRepository.Query(x => x.ProductTypeId == tmp));

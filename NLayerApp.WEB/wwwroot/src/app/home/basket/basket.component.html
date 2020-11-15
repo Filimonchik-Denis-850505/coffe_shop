@@ -1,0 +1,53 @@
+<section class="section section-cart">
+    <div class="container section-cart__container">
+        <h2 class="page-title">Корзина</h2>
+        <div class="cart">
+            <form class="form cart__form">
+                <div class="cart__items">
+                    <div data-product-id="Сок-Маленький" class="js-cart-item" *ngFor="let item of basketList">
+                        <div class="cart-item cart__item" >
+                            <div class="cart-item__main" >
+                                <div class="cart-item__start">
+                                    <button class="cart-item__btn cart-item__btn--remove" type="button"></button>
+                                </div>
+                                <div class="cart-item__img-wrapper">
+                                    <img class="cart-item__img" src="src/tmpImg/1.png" alt="">
+                                </div>
+                                <div class="cart-item__content">
+                                    <h3 class="cart-item__title">{{item.name}}</h3>
+                                </div>
+                            </div>
+                            <div class="cart-item__end">
+                                <div class="cart-item__actions">
+                                    <button class="cart-item__btn" type="button">-</button>
+                                    <span class="cart-item__quantity">{{item.count}}</span>
+                                    <button class="cart-item__btn" type="button">+</button>
+                                </div>
+                                <p class="cart-item__price">{{item.price}} ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart__totals">
+                    <div>Всего элементов: {{basketList.length}}</div>
+                    <div>Итого: <span class="cart__bold">{{sum}} ₽</span></div>
+                </div>
+                <h3 class="title">Заполните форму</h3>
+                <div class="form__main">
+                    <input class="form__input" type="text" name="Имя" placeholder="Имя" required="">
+                    <input class="form__input" type="text" name="Телефон" placeholder="Телефон" required="">
+                    <input class="form__input" type="text" name="Адрес" placeholder="Адрес" required="">
+                    <input class="js-cart-total-price-input" type="hidden" name="Общая сумма">
+                    <select class="form__input" name="оплата">
+                        <option value="Оплата наличными">Оплата наличными</option>
+                        <option value="Оплата картой">Оплата картой</option>
+                    </select>
+                    <button class="btn form__btn" type="submit">Отправить</button>
+                </div>
+            </form>
+            <div class="cart__empty">
+                <p class="cart__info">Нет товаров</p>
+            </div>
+        </div>
+    </div>
+</section>
