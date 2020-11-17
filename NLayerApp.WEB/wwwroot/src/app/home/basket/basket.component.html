@@ -2,13 +2,13 @@
     <div class="container section-cart__container">
         <h2 class="page-title">Корзина</h2>
         <div class="cart">
-            <form class="form cart__form">
+            <form class="form cart__form" *ngIf="this.basketList.length != 0">
                 <div class="cart__items">
-                    <div data-product-id="Сок-Маленький" class="js-cart-item" *ngFor="let item of basketList">
+                    <div class="js-cart-item" *ngFor="let item of basketList">
                         <div class="cart-item cart__item" >
                             <div class="cart-item__main" >
                                 <div class="cart-item__start">
-                                    <button class="cart-item__btn cart-item__btn--remove" type="button"></button>
+                                    <button class="cart-item__btn cart-item__btn--remove" type="button" (click)="deleteProduct(item)"></button>
                                 </div>
                                 <div class="cart-item__img-wrapper">
                                     <img class="cart-item__img" src="src/tmpImg/1.png" alt="">
@@ -19,18 +19,21 @@
                             </div>
                             <div class="cart-item__end">
                                 <div class="cart-item__actions">
-                                    <button class="cart-item__btn" type="button">-</button>
+                                    <button class="cart-item__btn" type="button" (click)="minusProduct(item)">-</button>
                                     <span class="cart-item__quantity">{{item.count}}</span>
-                                    <button class="cart-item__btn" type="button">+</button>
+                                    <button class="cart-item__btn" type="button" (click)="plusProduct(item)">+</button>
                                 </div>
-                                <p class="cart-item__price">{{item.price}} ₽</p>
+                                <p class="cart-item__price">{{item.price * item.count}} ₽</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="cart__totals">
-                    <div>Всего элементов: {{basketList.length}}</div>
-                    <div>Итого: <span class="cart__bold">{{sum}} ₽</span></div>
+                    <button class="btn-clear-basket " type="button" (click)="clearBasket()">Очистить корзину</button> 
+                    <div>
+                        <div>Всего товаров: {{basketList.length}}</div>
+                        <div>Итого: <span class="cart__bold">{{sum}} ₽</span></div>
+                    </div>
                 </div>
                 <h3 class="title">Заполните форму</h3>
                 <div class="form__main">
@@ -39,13 +42,17 @@
                     <input class="form__input" type="text" name="Адрес" placeholder="Адрес" required="">
                     <input class="js-cart-total-price-input" type="hidden" name="Общая сумма">
                     <select class="form__input" name="оплата">
+                        <option value="Самовывоз">Самовывоз</option>
+                        <option value="Доставка">Доставка</option>
+                    </select>
+                    <select class="form__input" name="оплата">
                         <option value="Оплата наличными">Оплата наличными</option>
                         <option value="Оплата картой">Оплата картой</option>
                     </select>
-                    <button class="btn form__btn" type="submit">Отправить</button>
+                    <button class="btn form__btn" type="submit">Оформить заказ</button>
                 </div>
             </form>
-            <div class="cart__empty">
+            <div class="cart__empty" *ngIf="this.basketList.length == 0">
                 <p class="cart__info">Нет товаров</p>
             </div>
         </div>

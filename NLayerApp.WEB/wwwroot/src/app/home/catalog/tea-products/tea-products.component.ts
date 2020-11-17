@@ -23,4 +23,8 @@ export class TeaProductsComponent implements OnInit {
     this.catalogService.getCategory('tea').subscribe(products => this.teaList = products);
   }
 
+  addToBasket(item:Product): void {
+    this.catalogService.addToBasket(item);
+  }
+
 }

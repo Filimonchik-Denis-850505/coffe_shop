@@ -1,4 +1,4 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CatalogService} from "../catalog.service";
 import {Product} from "../../../product";
 
@@ -24,8 +24,6 @@ export class AllProductsComponent implements OnInit {
   }
   
   addToBasket(item:Product): void {
-    console.log(item);
      this.catalogService.addToBasket(item);
   }
-
 }

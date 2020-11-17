@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 
 using AutoMapper;
-
+using AutoMapper.Mappers;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NLayerApp.DAL.Model;
 using NLayerApp.DAL.Model.Enums;
 using NLayerApp.DAL.Repositories;
@@ -30,24 +31,7 @@ namespace NLayerApp.DLL.Services
 
         public async Task<IEnumerable<ProductViewModel>> GetCategoryOfProducts(string type)
         {
-            ProductType tmp = ProductType.Tea;
-            
-            string typeP = type.ToUpper();
-            
-            switch (typeP)
-            {
-                case "TEA":
-                    tmp = ProductType.Tea;
-                    break;
-                case "COFFE":
-                    tmp = ProductType.Coffe;
-                    break;
-                case "MEDHERBS":
-                    tmp = ProductType.MedHerbs;
-                    break;
-            }
-
-            return _mapper.Map<IEnumerable<ProductViewModel>>(await _productRepository.Query(x => x.ProductTypeId == tmp));
+            return _mapper.Map<IEnumerable<ProductViewModel>>(await _productRepository.Query(x => x.ProductTypeId == (ProductType) Enum.Parse(typeof(ProductType), type, true)));
         }
     }
 }

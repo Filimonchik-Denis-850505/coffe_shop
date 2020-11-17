@@ -23,4 +23,8 @@ export class CoffeProductsComponent implements OnInit {
     this.catalogService.getCategory('coffe').subscribe(products => this.coffeList = products);
   }
 
+  addToBasket(item:Product): void {
+    this.catalogService.addToBasket(item);
+  }
+  
 }

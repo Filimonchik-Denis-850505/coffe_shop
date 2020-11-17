@@ -11,7 +11,7 @@ import {Product} from "../../../product";
 })
 export class MedHerbsProductsComponent implements OnInit {
 
-  constructor(private catalogServise:CatalogService) { }
+  constructor(private catalogService:CatalogService) { }
 
   ngOnInit(): void {
     this.getHerbs();
@@ -20,7 +20,11 @@ export class MedHerbsProductsComponent implements OnInit {
   herbsList:Product[];
   
   getHerbs():void {
-    this.catalogServise.getCategory('medherbs').subscribe(products => this.herbsList = products);
+    this.catalogService.getCategory('medherbs').subscribe(products => this.herbsList = products);
+  }
+
+  addToBasket(item:Product): void {
+    this.catalogService.addToBasket(item);
   }
   
 }
