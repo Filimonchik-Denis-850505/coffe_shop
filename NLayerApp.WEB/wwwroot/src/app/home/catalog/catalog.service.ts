@@ -17,6 +17,7 @@ export class CatalogService {
   };
   
   basketList:Basket[] = JSON.parse(localStorage.getItem('basket')) || [];
+  
 
   constructor(private http:HttpClient) { }
 

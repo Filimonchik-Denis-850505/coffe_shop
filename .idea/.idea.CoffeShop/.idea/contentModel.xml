@@ -60,6 +60,7 @@
           <e p="IRepository.cs" t="Include" />
         </e>
         <e p="Mapping" t="Include">
+          <e p="OrderMapping.cs" t="Include" />
           <e p="ProductMapping.cs" t="Include" />
           <e p="ProductTypeMapping.cs" t="Include" />
         </e>
@@ -69,8 +70,11 @@
             <e p="IEntity.cs" t="Include" />
           </e>
           <e p="enums" t="Include">
+            <e p="TypeOfDelivery.cs" t="Include" />
             <e p="TypeOfProduct.cs" t="Include" />
+            <e p="TyprOfPayment.cs" t="Include" />
           </e>
+          <e p="Order.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="ProductTypeEntity.cs" t="Include" />
         </e>
@@ -278,6 +282,7 @@
                   <e p="basket.component.scss" t="Include" />
                   <e p="basket.component.ts" t="Include" />
                   <e p="basket.module.ts" t="Include" />
+                  <e p="basket.service.ts" t="Include" />
                 </e>
                 <e p="catalog" t="Include">
                   <e p="all-products" t="Include">
@@ -329,6 +334,10 @@
                 </e>
                 <e p="Models" t="Include">
                   <e p="basket.ts" t="Include" />
+                  <e p="delivery.ts" t="Include" />
+                  <e p="order-product.ts" t="Include" />
+                  <e p="order.ts" t="Include" />
+                  <e p="payment.ts" t="Include" />
                 </e>
                 <e p="shipping-payment" t="Include" />
               </e>
