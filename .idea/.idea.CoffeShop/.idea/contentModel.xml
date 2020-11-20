@@ -15,6 +15,8 @@
           <e p="20201101165026_add_new_data.Designer.cs" t="Include" />
           <e p="20201111154101__AddData.cs" t="Include" />
           <e p="20201111154101__AddData.Designer.cs" t="Include" />
+          <e p="20201120183015_AddOrderProductTable.cs" t="Include" />
+          <e p="20201120183015_AddOrderProductTable.Designer.cs" t="Include" />
           <e p="ShopDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -60,8 +62,11 @@
           <e p="IRepository.cs" t="Include" />
         </e>
         <e p="Mapping" t="Include">
+          <e p="DeliveryTypeMapping.cs" t="Include" />
           <e p="OrderMapping.cs" t="Include" />
+          <e p="PaymentTypeMapping.cs" t="Include" />
           <e p="ProductMapping.cs" t="Include" />
+          <e p="ProductOrderMapping.cs" t="Include" />
           <e p="ProductTypeMapping.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
@@ -69,13 +74,16 @@
             <e p="BaseEntity.cs" t="Include" />
             <e p="IEntity.cs" t="Include" />
           </e>
+          <e p="DeliveryTypeEntity.cs" t="Include" />
           <e p="enums" t="Include">
-            <e p="TypeOfDelivery.cs" t="Include" />
-            <e p="TypeOfProduct.cs" t="Include" />
-            <e p="TyprOfPayment.cs" t="Include" />
+            <e p="DeliveryType.cs" t="Include" />
+            <e p="PaymentType.cs" t="Include" />
+            <e p="ProductType.cs" t="Include" />
           </e>
           <e p="Order.cs" t="Include" />
+          <e p="PaymentTypeEntity.cs" t="Include" />
           <e p="Product.cs" t="Include" />
+          <e p="ProductOrder.cs" t="Include" />
           <e p="ProductTypeEntity.cs" t="Include" />
         </e>
         <e p="Module.cs" t="Include" />

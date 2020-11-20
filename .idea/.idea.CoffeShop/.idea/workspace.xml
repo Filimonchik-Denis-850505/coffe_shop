@@ -33,10 +33,71 @@
     <list default="true" id="1a0e1900-2499-4ff8-a619-998ddc49a43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoffeShop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/Migrations/ShopDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/Migrations/ShopDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/DbMigrator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/DbMigrator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/DbMigrator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/DbMigrator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/ConsoleApp1.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/ConsoleApp1.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/ConsoleApp1.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/ConsoleApp1.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/ConsoleApp1.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/ConsoleApp1.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/Debug/netcoreapp3.1/DbMigrator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DbMigrator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DbMigrator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.BLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/bin/Debug/netstandard2.1/NLayerApp.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netcoreapp3.1/NLayerApp.BLL.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netcoreapp3.1/NLayerApp.BLL.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netcoreapp3.1/NLayerApp.BLL.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netcoreapp3.1/NLayerApp.BLL.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/Debug/netstandard2.1/NLayerApp.BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.BLL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.BLL/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/EntityMapping/EntityMappingConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/EntityMapping/EntityMappingConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Mapping/OrderMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Mapping/OrderMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfDelivery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TyprOfPayment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Model/Order.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/bin/Debug/netstandard2.1/NLayerApp.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/Debug/netstandard2.1/NLayerApp.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/NLayerApp.DAL.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.DAL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.DAL/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/bin/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/NLayerApp.WEB.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/Debug/netcoreapp3.1/qwewqe.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/NLayerApp.WEB.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/NLayerApp.WEB.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLayerApp.WEB/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/NLayerApp.WEB/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,15 +145,12 @@
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Module.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.BLL/Module.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Repositories/Data/Repository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/13E/ThreadPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Model/Base/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/13D/ThreadPool.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Model/Base/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/EntityMapping/EntityMappingConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/63B181AF-8D17-4E6D-9DF3-BCE5D3612F24/7E/Http2StreamOfT.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NLayerApp.DAL/Mapping/ProductMapping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/63B181AF-8D17-4E6D-9DF3-BCE5D3612F24/5A/HttpProtocol.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/199D11C9-6FFC-4A68-B1DA-C2CA6FFA8B90/D/HostingApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9C529A86-E2AB-4CF2-BF3C-87507619F447/1/HostFilteringMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
@@ -120,12 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all/all.component.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all/all.component.html" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products-routing.module.ts" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/Controllers/ProductController.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/all-products/all-products.component.scss" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfProduct.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/catalog/catalog-routing.module.ts" />
         <option value="$PROJECT_DIR$/DbMigrator/Migrations/20201111154101__AddData.cs" />
@@ -166,11 +218,17 @@
         <option value="$PROJECT_DIR$/NLayerApp.WEB/wwwroot/src/app/home/models/order.ts" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TypeOfDelivery.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Enums/TyprOfPayment.cs" />
-        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Order.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Repositories/Data/Repository.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Repositories/Data/ShopDbContext.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Product.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Mapping/ProductMapping.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/DeliveryTypeEntity.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Mapping/PaymentTypeMapping.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Mapping/DeliveryTypeMapping.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/Model/Order.cs" />
         <option value="$PROJECT_DIR$/NLayerApp.DAL/Mapping/OrderMapping.cs" />
+        <option value="$PROJECT_DIR$/NLayerApp.DAL/EntityMapping/EntityMappingConfig.cs" />
+        <option value="$PROJECT_DIR$/DbMigrator/Migrations/20201120183015_AddOrderProductTable.cs" />
       </list>
     </option>
   </component>
@@ -317,7 +375,10 @@
       <workItem from="1605535247129" duration="12577000" />
       <workItem from="1605641967244" duration="1712000" />
       <workItem from="1605690304198" duration="12441000" />
-      <workItem from="1605791798584" duration="1973000" />
+      <workItem from="1605791798584" duration="11463000" />
+      <workItem from="1605869026892" duration="1071000" />
+      <workItem from="1605891945422" duration="3083000" />
+      <workItem from="1605896858297" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="Init app.">
       <created>1602618150303</created>
@@ -368,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605651167956</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="many to many EF(beta)">
+      <created>1605803836745</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605803836745</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +481,8 @@
     <MESSAGE value="add catalog navigation(child subcatalog)" />
     <MESSAGE value="add basket(first version)" />
     <MESSAGE value="Update basket,add push-notification,add diagramms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update basket,add push-notification,add diagramms" />
+    <MESSAGE value="many to many EF(beta)" />
+    <option name="LAST_COMMIT_MESSAGE" value="many to many EF(beta)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="345" y="57" key="#Inspection_severity" timestamp="1605095427133">
@@ -436,33 +505,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603550954576" />
-    <state width="1493" height="388" key="GridCell.Tab.0.bottom" timestamp="1605717467873">
-      <screen x="1920" y="0" width="1536" height="832" />
+    <state width="1877" height="512" key="GridCell.Tab.0.bottom" timestamp="1605897682190">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605454105525" />
+    <state width="1493" height="388" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605870452969" />
     <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="117" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605532313821" />
+    <state width="1877" height="512" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605897682190" />
     <state width="1493" height="388" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605717467873" />
-    <state width="1493" height="388" key="GridCell.Tab.0.center" timestamp="1605717467872">
-      <screen x="1920" y="0" width="1536" height="832" />
+    <state width="1877" height="512" key="GridCell.Tab.0.center" timestamp="1605897682189">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605454105524" />
+    <state width="1493" height="388" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605870452969" />
     <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="117" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605532313820" />
+    <state width="1877" height="512" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605897682189" />
     <state width="1493" height="388" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605717467872" />
-    <state width="1493" height="388" key="GridCell.Tab.0.left" timestamp="1605717467872">
-      <screen x="1920" y="0" width="1536" height="832" />
+    <state width="1877" height="512" key="GridCell.Tab.0.left" timestamp="1605897682189">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605454105524" />
+    <state width="1493" height="388" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605870452969" />
     <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="117" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605532313820" />
+    <state width="1877" height="512" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605897682189" />
     <state width="1493" height="388" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605717467872" />
-    <state width="1493" height="388" key="GridCell.Tab.0.right" timestamp="1605717467872">
-      <screen x="1920" y="0" width="1536" height="832" />
+    <state width="1877" height="512" key="GridCell.Tab.0.right" timestamp="1605897682190">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605454105524" />
+    <state width="1493" height="388" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605870452969" />
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1601939364710" />
-    <state width="1877" height="117" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605532313821" />
+    <state width="1877" height="512" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605897682190" />
     <state width="1493" height="388" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605717467872" />
     <state width="1493" height="273" key="GridCell.Tab.1.bottom" timestamp="1604324006614">
       <screen x="0" y="0" width="1536" height="824" />
@@ -567,12 +636,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601912309845" />
-    <state x="2362" y="192" key="Vcs.Push.Dialog.v2" timestamp="1605651169511">
+    <state x="2362" y="192" key="Vcs.Push.Dialog.v2" timestamp="1605803839302">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="442" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605454079989" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602710583343" />
-    <state x="2362" y="192" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605651169511" />
+    <state x="2362" y="192" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605803839302" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602107849052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -589,11 +658,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="158" y="253" width="644" height="534" key="find.popup/0.0.1920.1034/1920.0.1920.1040@0.0.1920.1034" timestamp="1602016252984" />
-    <state x="2345" y="189" key="run.anything.popup" timestamp="1605564065606">
+    <state x="2345" y="189" key="run.anything.popup" timestamp="1605823745380">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605092841883" />
-    <state x="2345" y="189" key="run.anything.popup/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605564065606" />
+    <state x="2345" y="189" key="run.anything.popup/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1605823745380" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605452479305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

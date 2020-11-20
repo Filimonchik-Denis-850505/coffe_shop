@@ -16,28 +16,33 @@ namespace NLayerApp.DAL.Mapping
             builder.HasKey(x => x.Id);
 
             ConfigureUniqueKeys(builder);
-            ConfigureNullableColumns(builder);
+            ConfigureNotNullableColumns(builder);
             ConfigureForeignKeys(builder);
         }
 
         private static void ConfigureUniqueKeys(EntityTypeBuilder<Order> builder)
         {
-            builder.HasIndex(x => new {x.Name, ProductType = x.ProductTypeId}).IsUnique();
+            builder.HasIndex(x => x.Name).IsUnique();
         }
-        
-        private static void ConfigureNullableColumns(EntityTypeBuilder<Order> builder)
+
+        private static void ConfigureNotNullableColumns(EntityTypeBuilder<Order> builder)
         {
             builder.Property(x => x.Name).IsRequired(); //обязательно должно иметь значение [Required]
-            builder.Property(x => x.ProductTypeId).IsRequired()
-                .HasConversion(new EnumToNumberConverter<ProductType, int>());
-            builder.Property(x => x.Id).IsRequired();
-            builder.Property(x => x.Description).IsRequired();
+            builder.Property(x => x.Number).IsRequired();
+            builder.Property(x => x.Address).IsRequired();
+            builder.Property(x => x.Price).IsRequired();
+            builder.Property(x => x.DeliveryTypeId).IsRequired()
+                .HasConversion(new EnumToNumberConverter<DeliveryType, int>());
+            builder.Property(x => x.PaymentTypeId).IsRequired()
+                .HasConversion(new EnumToNumberConverter<PaymentType, int>());
         }
-        
+
         private static void ConfigureForeignKeys(EntityTypeBuilder<Order> builder)
         {
-            builder.HasOne(x => x.ProductType).WithMany()
-                .HasForeignKey(x => x.ProductTypeId).OnDelete(DeleteBehavior.Restrict);
+            builder.HasOne(x => x.PaymentType)
+                .WithMany().HasForeignKey(x => x.PaymentTypeId).OnDelete(DeleteBehavior.Cascade); 
+            builder.HasOne(x => x.DeliveryType)
+                .WithMany().HasForeignKey(x => x.DeliveryTypeId).OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
