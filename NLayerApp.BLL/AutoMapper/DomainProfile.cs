@@ -9,6 +9,7 @@ namespace NLayerApp.DLL.AutoMapper
     {
         public DomainProfile()
         {
+            CreateMap<Order,OrderViewModel>();
             CreateMap<Product, ProductViewModel>();
         }
     }

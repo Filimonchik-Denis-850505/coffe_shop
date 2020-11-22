@@ -22,7 +22,7 @@ namespace NLayerApp.DAL.Mapping
 
         private static void ConfigureUniqueKeys(EntityTypeBuilder<Order> builder)
         {
-            builder.HasIndex(x => x.Name).IsUnique();
+            builder.HasIndex(x => x.Name);
         }
 
         private static void ConfigureNotNullableColumns(EntityTypeBuilder<Order> builder)

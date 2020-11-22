@@ -2,12 +2,12 @@
 import {Payment} from "./payment";
 import {OrderProduct} from "./order-product";
 
-export interface Order {
-    products:OrderProduct[];
+export class Order {
+    productOrders:OrderProduct[] = [];
     price:number;
-    clientName:string;
-    clientNumber:string;
-    clientAddress:string;
-    deliveryId:Delivery;
-    paymentId:Payment;
+    name:string;
+    number:string;
+    address:string;
+    deliveryTypeId:Delivery;
+    paymentTypeId:Payment;
 }

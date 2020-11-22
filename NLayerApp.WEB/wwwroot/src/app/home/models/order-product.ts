@@ -1,4 +1,5 @@
-﻿export interface OrderProduct {
-    productId:number;
-    count:number;
+﻿export class OrderProduct {
+    constructor(
+        productId:number,
+        count:number) { }
 }

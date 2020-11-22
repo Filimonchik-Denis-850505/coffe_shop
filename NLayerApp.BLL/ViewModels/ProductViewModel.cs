@@ -1,6 +1,4 @@
-﻿using NpgsqlTypes;
-
-namespace NLayerApp.DLL.ViewModels
+﻿namespace NLayerApp.DLL.ViewModels
 {
     public class ProductViewModel
     {

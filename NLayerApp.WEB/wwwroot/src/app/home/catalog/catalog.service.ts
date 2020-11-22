@@ -66,7 +66,7 @@ export class CatalogService {
           let chipsAll = document.querySelectorAll('#chips-field .chips');
           if(chipsAll.length == 0)
           {
-            document.querySelector('#chips-field').remove();
+            document.querySelector('#chips-field')?.remove();
           }
         },
         3000

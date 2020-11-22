@@ -37,19 +37,18 @@
                 </div>
                 <h3 class="title">Заполните форму</h3>
                 <div class="form__main">
-                    <input class="form__input" type="text" name="Имя" placeholder="Имя" required="">
-                    <input class="form__input" type="text" name="Телефон" placeholder="Телефон" required="">
-                    <input class="form__input" type="text" name="Адрес" placeholder="Адрес" required="">
-                    <input class="js-cart-total-price-input" type="hidden" name="Общая сумма">
-                    <select class="form__input" name="оплата">
-                        <option value="Самовывоз">Самовывоз</option>
-                        <option value="Доставка">Доставка</option>
+                    <input class="form__input" type="text" [(ngModel)] = "order.name" name = "Name" placeholder="Имя" required="">
+                    <input class="form__input" type="text" [(ngModel)]= "order.number" name = "Number" placeholder="Телефон" required="">
+                    <input class="form__input" type="text" [(ngModel)]= "order.address" name = "Address" placeholder="Адрес" required="">
+                    <select class="form__input" [(ngModel)]= "order.deliveryTypeId" name = "Delivery">
+                        <option value= "1">Самовывоз</option>
+                        <option value= "2">Доставка</option>
                     </select>
-                    <select class="form__input" name="оплата">
-                        <option value="Оплата наличными">Оплата наличными</option>
-                        <option value="Оплата картой">Оплата картой</option>
+                    <select class="form__input" [(ngModel)]= "order.paymentTypeId" name = "Payment">
+                        <option value="1">Оплата наличными</option>
+                        <option value="2">Оплата картой</option>
                     </select>
-                    <button class="btn form__btn" type="submit">Оформить заказ</button>
+                    <button class="btn form__btn" type="submit" (click)="sendOrder()">Оформить заказ</button>
                 </div>
             </form>
             <div class="cart__empty" *ngIf="this.basketList.length == 0">

@@ -1,6 +1,5 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using NLayerApp.DAL.Model.Enums;
 using NLayerApp.DLL.Interfaces;
 
 

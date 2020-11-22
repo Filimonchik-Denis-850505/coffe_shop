@@ -15,7 +15,7 @@ namespace NLayerApp.DAL.Model
 
         public int Weight { get; set; }
 
-        public decimal Price { get; set; }
+        public double Price { get; set; }
 
         #region Navigation properties
 
