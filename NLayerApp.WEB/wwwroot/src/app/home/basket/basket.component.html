@@ -48,7 +48,7 @@
                         <option value="1">Оплата наличными</option>
                         <option value="2">Оплата картой</option>
                     </select>
-                    <button class="btn form__btn" type="submit" (click)="sendOrder()">Оформить заказ</button>
+                    <button id = "sendBtn" class="btn form__btn" type="button" (click)="sendOrder()">Оформить заказ</button>
                 </div>
             </form>
             <div class="cart__empty" *ngIf="this.basketList.length == 0">
@@ -57,3 +57,29 @@
         </div>
     </div>
 </section>
+
+<div id = "popup" class = popup>
+    <div class="popup-content">
+        <div class="popup-header">
+            <div  *ngIf="!responseStatus">
+                <h2>Упс!</h2>
+            </div>
+            <div *ngIf="responseStatus">
+                <h2>Здравствуйте,{{response.name}}</h2>
+            </div>
+            <span id = "popup-close" class="close">&times;</span>
+        </div>
+        <div class="popup-body" *ngIf="!responseStatus">
+            <p>Произошла ошибка,проверьте правильность заполнения данных</p>
+        </div>
+        <div class="popup-body" *ngIf="responseStatus">
+            <p>В скором времени вам позвонят по телефону для уточнения заказа: {{response.number}}</p>
+            <p>Адресс указанный вами: {{response.address}}</p>
+            <p>Общая стоимость заказа: {{response.price}}</p>
+        </div>
+        <div class="popup-footer">
+            <h3>С уважением, Co&ffeTea!</h3>
+        </div>
+    </div>
+</div>
+

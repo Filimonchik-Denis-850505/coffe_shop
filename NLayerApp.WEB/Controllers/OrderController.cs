@@ -28,13 +28,12 @@ namespace NLayerApp.WEB.Controllers
             try
             {
                 order.Price = await TotalPrice(order);
+                return Ok(await _productAppService.CreateOrder(order));
             }
             catch
             {
                 return Ok("Error");
             }
-            
-            return Ok(await _productAppService.CreateOrder(order));
         }
 
         private async Task<double> TotalPrice(Order order)

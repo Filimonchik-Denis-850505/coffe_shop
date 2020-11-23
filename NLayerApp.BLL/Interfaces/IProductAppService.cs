@@ -11,6 +11,6 @@ namespace NLayerApp.DLL.Interfaces
         Task<ProductViewModel> GetProduct(int id);
         Task<IEnumerable<ProductViewModel>> GetProducts();
         Task<IEnumerable<ProductViewModel>> GetCategoryOfProducts(string type);
-        Task<int> CreateOrder(Order order);
+        Task<OrderViewModel> CreateOrder(Order order);
     }
 }

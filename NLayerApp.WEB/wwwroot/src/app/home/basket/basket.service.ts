@@ -18,7 +18,7 @@ export class BasketService {
   
   constructor(private http:HttpClient) { }
   
-  createOrder(order:Order): Observable<HttpResponse<Order>> {
-    return this.http.post<Order>(this.productUrl,order,{ observe: 'response' });
+  createOrder(order:Order) {
+    return this.http.post(this.productUrl,order,{ observe: 'response' });
   }
 }

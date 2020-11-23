@@ -41,9 +41,10 @@ namespace NLayerApp.DLL.Services
             return _mapper.Map<IEnumerable<ProductViewModel>>(await _productRepository.Query(x => x.ProductTypeId == (ProductType) Enum.Parse(typeof(ProductType), type, true)));
         }
         
-        public async Task<int> CreateOrder(Order order)
+        public async Task<OrderViewModel> CreateOrder(Order order)
         {
-            return await _orderRepository.Insert(order);
+            await _orderRepository.Insert(order);
+            return  _mapper.Map<OrderViewModel>(order);
         }
     }
 }

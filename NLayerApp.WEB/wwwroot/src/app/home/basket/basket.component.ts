@@ -5,6 +5,7 @@ import {Order} from "../models/order";
 import {BasketService} from "./basket.service";
 import {OrderProduct} from "../models/order-product";
 import {HttpRequest, HttpResponse} from "@angular/common/http";
+import {timeout} from "rxjs/operators";
 
 @Component({
   selector: 'basket',
@@ -19,6 +20,9 @@ export class BasketComponent implements OnInit {
   
   basketList:Basket[] = [];
   sum:number = 0;
+  
+  response:Order = new Order();
+  responseStatus: boolean = false;
   
   ngOnInit(): void {
     this.updateBasket();
@@ -70,19 +74,48 @@ export class BasketComponent implements OnInit {
   sendOrder(): void {
     this.order.productOrders = [];
     
+    let i = 0;
+    
     this.createOrderModel();
     
     console.log(this.order);
     
     this.basketService.createOrder(this.order).subscribe((data: HttpResponse<Order>) => {
-      console.log(data);});
-    
-    this.clearBasket();
+    this.responseValid(data); if(this.responseStatus) this.clearBasket(); this.showPopup()});
   }
   
   createOrderModel(): void {
     for(let i in this.basketList) {
       this.order.productOrders.push({productId:this.basketList[i].productId,count:this.basketList[i].count});
+    }
+  }
+  
+  responseValid(data:HttpResponse<any>) : void {
+    
+    if(data.body == "Error") {
+      this.responseStatus = false;
+      return;
+    }
+    
+    this.responseStatus = true;
+    this.response = data.body;
+  }
+  
+  showPopup(): void {
+    let popup = document.getElementById('popup'),
+        popupClose = document.getElementById('popup-close');
+    
+    popup.style.display = "block";
+    
+    popupClose.onclick = function () {
+      popup.style.display = "none";
+    }
+    
+    window.onclick = function (e) {
+      if(e.target == popup)
+      {
+        popup.style.display = "none";
+      }
     }
   }
 }
