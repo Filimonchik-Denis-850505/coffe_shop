@@ -40,7 +40,7 @@ export class CatalogService {
         return;
       }
     }
-    this.basketList.push({productId:item.id,name:item.name,count:1,price:item.price});
+    this.basketList.push({productId:item.id,name:item.name,count:1,price:item.price,imageSrc:item.imageURL});
     localStorage.setItem('basket',JSON.stringify(this.basketList));
     this.pushMes(item.name);
   }

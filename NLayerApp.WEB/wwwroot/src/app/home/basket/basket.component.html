@@ -5,13 +5,14 @@
             <form class="form cart__form" *ngIf="this.basketList.length != 0">
                 <div class="cart__items">
                     <div class="js-cart-item" *ngFor="let item of basketList">
-                        <div class="cart-item cart__item" >
-                            <div class="cart-item__main" >
+                        <div class="cart-item cart__item">
+                            <div class="cart-item__main">
                                 <div class="cart-item__start">
-                                    <button class="cart-item__btn cart-item__btn--remove" type="button" (click)="deleteProduct(item)"></button>
+                                    <button class="cart-item__btn cart-item__btn--remove" type="button"
+                                            (click)="deleteProduct(item)"></button>
                                 </div>
                                 <div class="cart-item__img-wrapper">
-                                    <img class="cart-item__img" src="src/tmpImg/1.png" alt="">
+                                    <img class="cart-item__img" [src]=item.imageSrc alt="">
                                 </div>
                                 <div class="cart-item__content">
                                     <h3 class="cart-item__title">{{item.name}}</h3>
@@ -23,32 +24,36 @@
                                     <span class="cart-item__quantity">{{item.count}}</span>
                                     <button class="cart-item__btn" type="button" (click)="plusProduct(item)">+</button>
                                 </div>
-                                <p class="cart-item__price">{{item.price * item.count}} ₽</p>
+                                <p class="cart-item__price">{{getTotalPrice(item)}} Br</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="cart__totals">
-                    <button class="btn-clear-basket " type="button" (click)="clearBasket()">Очистить корзину</button> 
+                    <button class="btn-clear-basket " type="button" (click)="clearBasket()">Очистить корзину</button>
                     <div>
                         <div>Всего товаров: {{basketList.length}}</div>
-                        <div>Итого: <span class="cart__bold">{{sum}} ₽</span></div>
+                        <div>Итого: <span class="cart__bold">{{sum.toFixed(2)}} Br</span></div>
                     </div>
                 </div>
                 <h3 class="title">Заполните форму</h3>
                 <div class="form__main">
-                    <input class="form__input" type="text" [(ngModel)] = "order.name" name = "Name" placeholder="Имя" required="">
-                    <input class="form__input" type="text" [(ngModel)]= "order.number" name = "Number" placeholder="Телефон" required="">
-                    <input class="form__input" type="text" [(ngModel)]= "order.address" name = "Address" placeholder="Адрес" required="">
-                    <select class="form__input" [(ngModel)]= "order.deliveryTypeId" name = "Delivery">
-                        <option value= "1">Самовывоз</option>
-                        <option value= "2">Доставка</option>
+                    <input class="form__input" type="text" [(ngModel)]="order.name" name="Name" placeholder="Имя"
+                           required="">
+                    <input class="form__input" type="text" [(ngModel)]="order.number" name="Number"
+                           placeholder="Телефон" required="">
+                    <input class="form__input" type="text" [(ngModel)]="order.address" name="Address"
+                           placeholder="Адрес" required="">
+                    <select class="form__input" [(ngModel)]="order.deliveryTypeId" name="Delivery">
+                        <option value="1">Самовывоз</option>
+                        <option value="2">Доставка</option>
                     </select>
-                    <select class="form__input" [(ngModel)]= "order.paymentTypeId" name = "Payment">
+                    <select class="form__input" [(ngModel)]="order.paymentTypeId" name="Payment">
                         <option value="1">Оплата наличными</option>
                         <option value="2">Оплата картой</option>
                     </select>
-                    <button id = "sendBtn" class="btn form__btn" type="button" (click)="sendOrder()">Оформить заказ</button>
+                    <button id="sendBtn" class="btn form__btn" type="button" (click)="sendOrder()">Оформить заказ
+                    </button>
                 </div>
             </form>
             <div class="cart__empty" *ngIf="this.basketList.length == 0">
@@ -58,16 +63,16 @@
     </div>
 </section>
 
-<div id = "popup" class = popup>
+<div id="popup" class=popup>
     <div class="popup-content">
         <div class="popup-header">
-            <div  *ngIf="!responseStatus">
+            <div *ngIf="!responseStatus">
                 <h2>Упс!</h2>
             </div>
             <div *ngIf="responseStatus">
                 <h2>Здравствуйте,{{response.name}}</h2>
             </div>
-            <span id = "popup-close" class="close">&times;</span>
+            <span id="popup-close" class="close">&times;</span>
         </div>
         <div class="popup-body" *ngIf="!responseStatus">
             <p>Произошла ошибка,проверьте правильность заполнения данных</p>
@@ -75,7 +80,7 @@
         <div class="popup-body" *ngIf="responseStatus">
             <p>В скором времени вам позвонят по телефону для уточнения заказа: {{response.number}}</p>
             <p>Адресс указанный вами: {{response.address}}</p>
-            <p>Общая стоимость заказа: {{response.price}}</p>
+            <p>Общая стоимость заказа: {{response.price.toFixed(2)}} Br</p>
         </div>
         <div class="popup-footer">
             <h3>С уважением, Co&ffeTea!</h3>

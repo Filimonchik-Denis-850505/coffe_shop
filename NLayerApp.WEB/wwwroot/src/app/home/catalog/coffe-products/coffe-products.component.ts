@@ -11,6 +11,8 @@ import {Product} from "../../../product";
 })
 export class CoffeProductsComponent implements OnInit {
 
+  isLoading = false;
+
   constructor(private catalogService: CatalogService) { }
 
   ngOnInit(): void {
@@ -20,7 +22,12 @@ export class CoffeProductsComponent implements OnInit {
   coffeList:Product[];
   
   getCoffe():void {
-    this.catalogService.getCategory('coffe').subscribe(products => this.coffeList = products);
+    this.isLoading = true;
+    this.catalogService.getCategory('coffe').subscribe(products => {
+      this.isLoading = false;
+      this.coffeList = products;
+    });
+    
   }
 
   addToBasket(item:Product): void {

@@ -44,6 +44,6 @@
 
     <ItemGroup>
       <Folder Include="wwwroot\src\app\home\shipping-payment" />
-      <Folder Include="wwwroot\src\shared" />
+      <Folder Include="wwwroot\src\asserts\products" />
     </ItemGroup>
 </Project>

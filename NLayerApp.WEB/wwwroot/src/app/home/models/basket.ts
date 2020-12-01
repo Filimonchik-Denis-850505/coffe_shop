@@ -3,4 +3,5 @@
    name:string;
    count:number;
    price:number;
+   imageSrc:string;
 }

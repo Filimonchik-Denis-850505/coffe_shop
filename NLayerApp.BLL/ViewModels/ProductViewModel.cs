@@ -7,11 +7,12 @@
         public int ProductTypeId { get; set; }
         
         public string Name { get; set; }
-        
+
         public string Description { get; set; }
         
         public int Weight { get; set; }
+        public double Price { get; set; }
         
-        public int Price { get; set; }
+        public string ImageURL { get; set; }
     }
 }

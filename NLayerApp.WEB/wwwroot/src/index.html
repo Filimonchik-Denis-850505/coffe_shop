@@ -16,7 +16,21 @@
             background: #EBCCCC;
             color: #d53e69;
             border-radius: 20px;
+            animation-name: animatechips;
+            animation-duration: 0.4s;
         }
+
+        @keyframes animatechips {
+            from {
+                top: -300px;
+                opacity: 0;
+            }
+            to {
+                top: -100px;
+                opacity: 1;
+            }
+        }
+        
         #chips-field {
             display: flex;
             flex-direction: column-reverse;

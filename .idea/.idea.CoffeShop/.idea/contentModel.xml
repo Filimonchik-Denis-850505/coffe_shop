@@ -19,6 +19,14 @@
           <e p="20201120183015_AddOrderProductTable.Designer.cs" t="Include" />
           <e p="20201121155442_OrderNameIsNotUnique.cs" t="Include" />
           <e p="20201121155442_OrderNameIsNotUnique.Designer.cs" t="Include" />
+          <e p="20201129203433_addImageColumn.cs" t="Include" />
+          <e p="20201129203433_addImageColumn.Designer.cs" t="Include" />
+          <e p="20201129204219_addData.cs" t="Include" />
+          <e p="20201129204219_addData.Designer.cs" t="Include" />
+          <e p="20201129205811_addNewData.cs" t="Include" />
+          <e p="20201129205811_addNewData.Designer.cs" t="Include" />
+          <e p="20201130160906_NewData.cs" t="Include" />
+          <e p="20201130160906_NewData.Designer.cs" t="Include" />
           <e p="ShopDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -37,6 +45,7 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Interfaces" t="Include">
+          <e p="IOrderAppService.cs" t="Include" />
           <e p="IProductAppService.cs" t="Include" />
         </e>
         <e p="Module.cs" t="Include" />
@@ -49,6 +58,7 @@
           </e>
         </e>
         <e p="Services" t="Include">
+          <e p="OrderAppService.cs" t="Include" />
           <e p="ProductAppService.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
@@ -362,6 +372,53 @@
                 <e p="profIcon.png" t="Include" />
               </e>
               <e p="main_background.jpg" t="Include" />
+              <e p="products" t="Include">
+                <e p="altaiIvan.png" t="Include" />
+                <e p="assamB.png" t="Include" />
+                <e p="boldBraziliia.png" t="Include" />
+                <e p="boldContinental.png" t="Include" />
+                <e p="boldEspresso.png" t="Include" />
+                <e p="boldPadishah.png" t="Include" />
+                <e p="boldSuperCrema.png" t="Include" />
+                <e p="Ceilon.png" t="Include" />
+                <e p="ceilonskiWithChabrec.png" t="Include" />
+                <e p="DaXunPao.png" t="Include" />
+                <e p="DaXunPaoB.png" t="Include" />
+                <e p="ErlCharlzGrei.png" t="Include" />
+                <e p="ErlsCharlsGrei.png" t="Include" />
+                <e p="goldAssam.png" t="Include" />
+                <e p="GrechTeaB.png" t="Include" />
+                <e p="greenDragon.png" t="Include" />
+                <e p="indAssam.png" t="Include" />
+                <e p="jasmin.png" t="Include" />
+                <e p="kupajiApelsin.png" t="Include" />
+                <e p="kupajiGlintvein.png" t="Include" />
+                <e p="kupajiGreifruit.png" t="Include" />
+                <e p="kupajiImbir.png" t="Include" />
+                <e p="kupajiIvan.png" t="Include" />
+                <e p="kupajiKlubnika.png" t="Include" />
+                <e p="kupajiLavanda.png" t="Include" />
+                <e p="kupajiMalina.png" t="Include" />
+                <e p="kupajiMango.png" t="Include" />
+                <e p="kupajiOblepixa.png" t="Include" />
+                <e p="kupajiOblepixa_Apelsin.png" t="Include" />
+                <e p="kupajiSagan.png" t="Include" />
+                <e p="kupajiShipovnik.png" t="Include" />
+                <e p="kupajiSmorodina.png" t="Include" />
+                <e p="lsbor.png" t="Include" />
+                <e p="milckUlun.png" t="Include" />
+                <e p="milcUlun.png" t="Include" />
+                <e p="MilkUlunB.png" t="Include" />
+                <e p="mMalina.png" t="Include" />
+                <e p="RoibushB.png" t="Include" />
+                <e p="sencha.png" t="Include" />
+                <e p="summerEvening.png" t="Include" />
+                <e p="sunyday.png" t="Include" />
+                <e p="teguanB.png" t="Include" />
+                <e p="tsbor.png" t="Include" />
+                <e p="url.txt" t="Include" />
+                <e p="vsbor.png" t="Include" />
+              </e>
               <e p="Smoke.png" t="Include" />
             </e>
             <e p="index.html" t="Include" />
@@ -371,7 +428,6 @@
               <e p="main_background.jpg" t="Include" />
               <e p="Smoke.png" t="Include" />
             </e>
-            <e p="shared" t="Include" />
             <e p="styles.scss" t="Include" />
             <e p="tmpImg" t="Include">
               <e p="1.png" t="Include" />

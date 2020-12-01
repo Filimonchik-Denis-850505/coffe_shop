@@ -1,6 +1,15 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Buffers.Text;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using NLayerApp.DLL.Interfaces;
+using NLayerApp.DLL.ViewModels;
 
 
 namespace NLayerApp.WEB.Controllers
@@ -18,8 +27,11 @@ namespace NLayerApp.WEB.Controllers
 
         [HttpGet]
         public async Task<IActionResult> Get()
-        { 
-            return Ok(await _productAppService.GetProducts());
+        {
+            /////////////////////////////////temp///////////////////////////
+            IEnumerable<ProductViewModel> model = await _productAppService.GetProducts();
+            List<ProductViewModel> modelList = model.ToList();
+            return Ok(model);
         }
 
         [HttpGet("{type}")]

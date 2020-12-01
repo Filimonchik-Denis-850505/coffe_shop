@@ -11,7 +11,6 @@ namespace DbMigrator
     internal class Startup : IHostedService
     {
         private readonly ShopDbContext _dbContext;
-
         public Startup(ShopDbContext dbContext)
         {
             _dbContext = dbContext;

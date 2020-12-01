@@ -1,7 +1,7 @@
 <div class="catalog">
     <div class="catalog-item" *ngFor="let item of teaList">
         <div class="product">
-            <img src = "src/tmpImg/1.png" alt = "" class="product-img">
+            <img [src] = "item.imageURL" alt = "" class="product-img">
             <div class = "product-content">
                 <h3 class="product-title">{{item.name}}</h3>
                 <div [ngSwitch]="item.productTypeId">Вид:<p *ngSwitchCase="1">Кофе</p><p *ngSwitchCase="2">Чай</p></div>
@@ -11,11 +11,21 @@
                 <div class="product-bottom">
                     <div class="product-price">
                         <span class="product-price-value">{{item.price}}</span>
-                        <span class="product-currency">&#8381;</span>
+                        <span class="product-currency"> Br</span>
                     </div>
                     <button class="btn product-btn" type="button" (click)="addToBasket(item)">в корзину</button>
                 </div>
             </footer>
         </div>
     </div>
+</div>
+<div class="spinner circles" *ngIf="isLoading">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
 </div>

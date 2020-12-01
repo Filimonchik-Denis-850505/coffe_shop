@@ -13,6 +13,7 @@ namespace NLayerApp.DLL
             services.AddDAL();
 
             services.AddScoped<IProductAppService, ProductAppService>();
+            services.AddScoped<IOrderAppService, OrderAppService>();
 
             return services;
         }

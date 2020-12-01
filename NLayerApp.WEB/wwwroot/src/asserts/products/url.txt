@@ -1,0 +1,3 @@
+src\asserts\products\indAssam.png - ИНДИЙСКИЙ АССАМ 
+src\asserts\products\milcUlun.png - МОЛОЧНЫЙ УЛУН
+src\asserts\products\DaXunPao.png - Да Хун Пао

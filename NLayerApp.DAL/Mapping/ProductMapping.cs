@@ -32,6 +32,8 @@ namespace NLayerApp.DAL.Mapping
                 .HasConversion(new EnumToNumberConverter<ProductType, int>());
             builder.Property(x => x.Id).IsRequired();
             builder.Property(x => x.Description).IsRequired();
+            builder.Property(x => x.ImageURL).IsRequired();
+            
         }
         
         private static void ConfigureForeignKeys(EntityTypeBuilder<Product> builder)

@@ -15,10 +15,12 @@ namespace NLayerApp.WEB.Controllers
     
     public class OrderController : Controller
     {
+        private readonly IOrderAppService _orderAppService;
         private readonly IProductAppService _productAppService;
 
-        public OrderController(IProductAppService productAppService)
+        public OrderController(IOrderAppService orderAppService,IProductAppService productAppService)
         {
+            _orderAppService = orderAppService;
             _productAppService = productAppService;
         }
 
@@ -28,7 +30,7 @@ namespace NLayerApp.WEB.Controllers
             try
             {
                 order.Price = await TotalPrice(order);
-                return Ok(await _productAppService.CreateOrder(order));
+                return Ok(await _orderAppService.CreateOrder(order));
             }
             catch
             {
