@@ -177,7 +177,7 @@
   font-family: Montserrat, sans-serif;
   font-size:22px;
   font-weight: 900;
-  color: #EBCCCC;
+  color: #ebcccc;
 }
 
 .product-bottom {
@@ -198,6 +198,7 @@
   -ms-user-select: none;
   user-select: none;
   padding: 0.15em 0.5em;
+  cursor: pointer;
   outline: none;
   border: 0;
   border-radius: 7px;
@@ -247,7 +248,7 @@
   width: 20px;
   height: 20px;
   border-radius:50%;
-  background: black;
+  background: #ebcccc;
   position: absolute;
   top: 35px;
   left: 45px;
